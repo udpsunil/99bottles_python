@@ -12,7 +12,7 @@ def take_a_bottle(n):
     return 'one' if n>1 else 'it'
 
 def take_or_buy(n):
-    return f"Take {take_a_bottle(n)} down and pass it around" if n > 0 else "Go to the store and buy some more"
+    return f"Take {take_a_bottle(n)} down and pass it around," if n > 0 else "Go to the store and buy some more"
 
 def left_over_bottles(n):
     if n-1 < 0:
